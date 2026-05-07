@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+
+# Environment Variables (NEVER upload this!)
+.env
+
+# ChromaDB (too large)
+chroma_db/
+
+# Uploaded PDFs
+uploads/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite Database (contains user data)
+finance_quiz.db
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
